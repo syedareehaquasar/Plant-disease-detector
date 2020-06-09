@@ -1,35 +1,12 @@
-<!-- Desktop - 1 -->
-<RelativeLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:id="@+id/desktop_1"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:clipToOutline="true"
-android:background="@drawable/desktop_1"
- />
+// Desktop - 1
 
 
-<!-- drawable/desktop_1.xml -->
-<vector
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:aapt="http://schemas.android.com/aapt"
-android:width="6285dp"
-android:height="4443dp"
-android:viewportWidth="6285"
-android:viewportHeight="4443"
- >
+var view = UILabel()
 
-<group>
+view.frame = CGRect(x: 0, y: 0, width: 6285, height: 4443)
 
-<clip-path
-android:pathData="M0 0H6285V4443H0V0Z"
-/>
+view.backgroundColor = .white
 
-<path
-android:pathData="M0 0V4443H6285V0"
-android:fillColor="#FFFFFF"
-/>
 
-</group>
+view.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
 
-</vector>
