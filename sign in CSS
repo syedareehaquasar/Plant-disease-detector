@@ -1,8 +1,8 @@
-/* Desktop - 1 */
+/* Desktop - 2 */
 
 
 position: relative;
-width: 6285px;
-height: 4443px;
+width: 1440px;
+height: 1024px;
 
-background: #FFFFFF;
+background: rgba(255, 255, 255, 0.22);
